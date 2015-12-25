@@ -45,7 +45,7 @@ void main()
     unsigned char s1[256] = {0};
     unsigned char s2[256] = {0};
     char key[256] = {"test"};
-    char pData[6] = {0x6f, 0xc1, 0xbe, 0xe2, 0x2e, 0x40};
+    unsigned char pData[6] = {0x6f, 0xc1, 0xbe, 0xe2, 0x2e, 0x40};
     int i;
     unsigned long len = 6;
     printf("key = %s, length = %d\n",key,strlen(key));
